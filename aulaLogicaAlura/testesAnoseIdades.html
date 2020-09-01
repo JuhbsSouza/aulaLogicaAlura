@@ -1,0 +1,53 @@
+<meta charset="UTF-8">
+
+<h1>Meu primeiro teste!</h1><br>
+Seria isso um programa? Descubra visitando a Alura <a href="http://www.alura.com.br">aqui</a>!<br><br>
+
+<script>
+
+	function pulaLinha() {
+
+    	document.write("<br>");
+
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+        pulaLinha();
+    }
+
+    //alert("Isso sim é um programa");
+    mostra ("Eu acertei: " + (15/50*100+"%"));
+//------------------------------------------------------------------------------
+    var ano = 2016;
+    pulaLinha();
+    mostra ("Flávio tem " + (ano - 1977) + " anos");
+    mostra ("Joaquim tem " + (ano - 1996) + " anos");
+    mostra ("Barney tem " + (ano - 1976) + " anos");
+    pulaLinha();
+//-------------------------------------------------------------------------------
+    var idadeLinda = 12;
+    var idadeGuaraciara = 15;
+    var idadePerola = 13;
+    var totalIdades = (idadeLinda + idadeGuaraciara + idadePerola);
+    mostra ("A soma das idades de Linda, Guaraciara e Pérola é: " + totalIdades);
+    mostra ("A média entre as idades delas é: " + Math.round(totalIdades/3));
+    pulaLinha();
+//--------------------------------------------------------------------------------
+    var idadeTales = 27;
+    var idadeJulia = 29;
+    var diferencaIdade = (idadeJulia - idadeTales);
+
+    mostra ("A diferença de idade entre eu e o meu irmão é de: " + diferencaIdade + "anos");
+    mostra ("Ele nasceu em 1993 e eu em 1991");
+    pulaLinha();
+//--------------------------------------------------------------------------------
+    var start = 1500;
+    var saltogeracao = 28;
+    var ndegeracoes = ((2020 - 1500)/28);
+    mostra("No Brasil, desde 1500, já houverão (em média): " + Math.round (ndegeracoes) + " gerações.");
+    pulaLinha();
+
+
+</script>
